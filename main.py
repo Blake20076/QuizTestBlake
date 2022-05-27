@@ -1,18 +1,25 @@
-#Author Blake cameron date 17/05/2022 Version 0.1
-def question1 (): 
- question1 = input(). lower
+#Author Blake cameron date 24/05/2022 Version 0.3
+def question1():
+  print("Hello welcome to a Quiz I made about te reo there are 15 questions about te reo")
+  print("First of all what is your name")
+  name = input()
+  print ("Hello " + name)
+  print ("okay lets begin")
+  question01 = input ("Is this the correct spelling for welcome nau mai "). lower()
+  if question01 == "yes" or question01 == "Yes":
+   print ("Correct good job")
+  else: print ("please answer yes or no")
+  if question01 == "no" or question01 == "No":
+    print ("wrong")
 
-
-
-print ("kio ora welcome to my quiz whats your name")
-name = input ()
-print ("welcome " + name )
-print ("who is more successful DC or Marvel")
 question1()
-if question1 == "DC":
-  print ("Wrong Dc's rating is around 54% while marvels are mostly around 66%")
-elif question1 == "MARVEL":
-  print ("Correct Marvel's ratings are mostly above 66% and Dc are around 54%")
 
-  question1()
+def question2():
+  question01 = input ("Is this the correct spelling for english lgorgi "). lower()
+  if question01 == "No" or question01 == "no":
+   print ("Correct good job this is the correct spelling Ingarihi")
+  else: print ("please answer yes or no")
+  if question01 == "Yes" or question01 == "Yes":
+    print ("wrong")
 
+question2()
