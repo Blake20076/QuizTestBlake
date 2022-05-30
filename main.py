@@ -1,4 +1,4 @@
-#Author Blake cameron date 24/05/2022 Version 0.3
+#Author Blake cameron date 24/05/2022 Version 0.4
 def question1():
   print("Hello welcome to a Quiz I made about te reo there are 15 questions about te reo")
   print("First of all what is your name")
@@ -23,3 +23,85 @@ def question2():
     print ("wrong")
 
 question2()
+
+
+def question3():
+  question01 = input ("Is this the correct spelling for danger mōrearea "). lower()
+  if question01 == "Yes" or question01 == "yes":
+   print ("Correct good job this is the correct danger mōrearea")
+  else: print ("please answer yes or no")
+  if question01 == "no" or question01 == "No":
+    print ("wrong")
+
+question3()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

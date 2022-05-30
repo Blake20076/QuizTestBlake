@@ -1,0 +1,1 @@
+part 2 is now working i am on Version 0.3 of my code i am working on making 15 questions maybe more or less depending on time i just started this md file today not knowing i had to i also set up git hub
