@@ -1,4 +1,4 @@
-#Author Blake cameron date 24/05/2022 Version 0.6
+#Author Blake cameron date 24/05/2022 Version 0.9
 def question1():
     print("Hello welcome to a Quiz I made about te reo there are 15 questions about te reo")
     print("First of all what is your name")
@@ -59,7 +59,7 @@ question4()
 def question5():
     question = input("Is this the correct spelling for star wars Patango Whatu ").lower()
     if question == "No" or question == "no":
-        print("Correct good job this is the correct spelling Pakanga Whetu")
+        print("Correct good job this is the correct spelling for Pakanga Whetu")
     elif question == "Yes" or question == "yes":
         print("wrong")
 
@@ -95,7 +95,7 @@ question7()
 def question8():
     question = input("Is this the correct spelling for face kākāriki ").lower()
     if question == "No" or question == "no":
-        print("Correct good job this is the correct face kanohi")
+        print("Correct good job this is the correct spelling face kanohi")
     elif question == "Yes" or question == "yes":
         print("wrong")
     else:
@@ -117,7 +117,7 @@ def question9():
 question9()
 
 def question10():
-    question = input("Is this the correct spelling for congratulations nga mihi").lower()
+    question = input("Is this the correct spelling for congratulations nga mihi ").lower()
     if question == "yes" or question == "Yes":
         print("Correct good job")
     elif question == "no" or question == "No ":
@@ -133,7 +133,7 @@ question10()
 def question11():
     question = input("Is this the correct spelling for main matuō ").lower()
     if question == "No" or question == "no":
-        print("Correct good job this is the correct main matua")
+        print("Correct good job this is the correct spelling main matua")
     elif question == "Yes" or question == "yes":
         print("wrong")
     else:
@@ -142,4 +142,51 @@ def question11():
 question11()
 
 
+def question12():
+    question = input("Is this the correct spelling for earthquake rū whenua ").lower()
+    if question == "yes" or question == "Yes":
+        print("Correct good job")
+    elif question == "no" or question == "No ":
+        print("wrong")
+    else:
+        print("please answer yes or no")
 
+
+question12()
+
+
+def question13():
+    question = input("Is this the correct spelling for hello kia ōra ").lower()
+    if question == "No" or question == "no":
+        print("Correct good job this is the correct spelling kia ora")
+    elif question == "Yes" or question == "yes":
+        print("wrong")
+    else:
+        print("please answer yes or no")
+
+question13()
+
+
+def question14():
+    question = input("Is this the correct spelling for trade unions uniana hokohoko ").lower()
+    if question == "Yes" or question == "yes":
+        print("Correct good job")
+    elif question == "No" or question == "no":
+        print("wrong")
+    else:
+        print("please answer yes or no")
+
+question14()
+
+
+
+def question15():
+    question = input("Is this the correct spelling for good job mahi pai").lower()
+    if question == "Yes" or question == "yes":
+        print("Correct good job")
+    elif question == "No" or question == "no":
+        print("wrong")
+    else:
+        print("please answer yes or no")
+
+question15()

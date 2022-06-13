@@ -12,7 +12,7 @@ Answers
 9 Yes
 10 Yes
 11 No
-12
-13
-14
-15
+12 Yes
+13 No
+14 Yes
+15 Yes
